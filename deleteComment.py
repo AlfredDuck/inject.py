@@ -80,7 +80,7 @@ def deleteComment (tiezi_id):
 
         # step 2
         postDeleteRequest(cid=result, tiezi_id=tiezi_id)
-            
+
 
 
 
