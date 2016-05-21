@@ -142,12 +142,12 @@ if __name__ == '__main__':
             # inject comment
             print '[inject comment]'
             injectComment(tiezi_id=item)
-            time.sleep(60*2)
+            time.sleep(60*5)
 
             # delete comment
             print '[delete comment]'
             deleteComment(tiezi_id=item)
-            time.sleep(60*3)
+            time.sleep(60*5)
         
         print '[wait for the next loop]'    
         time.sleep(60)
