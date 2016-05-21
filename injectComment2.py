@@ -106,8 +106,8 @@ def injectComment(tiezi_id):
         "ck":"oE4f",                          #这里的ck代表cookie，每个账号不一样
         "start":"0",
         "submit_btn":"加上去",
-        # "captcha-solution":"damage",
-        # "captcha-id": "WlrpdoeT5LS6YLO06Kfy9Ot3:en"
+        "captcha-solution":"damage",
+        "captcha-id": "WlrpdoeT5LS6YLO06Kfy9Ot3:en"
         # 后面两个是验证码
     }
     data = urllib.urlencode(values)
@@ -122,6 +122,7 @@ def injectComment(tiezi_id):
         print soup.title.string
     except StandardError:
         print 'something error'
+
 
 
 if __name__ == '__main__':
