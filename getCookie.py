@@ -46,8 +46,8 @@ opener = urllib2.build_opener(handler)
 #登录参数
 values = {"form_email":"zhaoyingzong@gmail.com", 
           "form_password":"eric61746174",
-          "captcha-solution":"river",
-          "captcha-id": "Au9vIH0GLPdcjstcQXJ5jTo0:en"
+          # "captcha-solution":"river",
+          # "captcha-id": "Au9vIH0GLPdcjstcQXJ5jTo0:en"
           # 后面两个是验证码
           }
 data = urllib.urlencode(values)
