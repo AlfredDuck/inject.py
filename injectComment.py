@@ -1,6 +1,7 @@
 #coding=utf-8
 
 
+import re
 import time
 import urllib
 import urllib2
