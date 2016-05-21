@@ -29,10 +29,7 @@ def postDeleteRequest (cid, tiezi_id):
 
     #post的参数
     values = {"cid": cid,
-              "ck":"aSyc",                          #这里的ck代表cookie，每个账号不一样
-              # "captcha-solution":"sweet",
-              # "captcha-id": "JMsHm70CaUbKZta1uChuKIVm:en"
-              # 后面两个是验证码
+              "ck":"aSyc"                          #这里的ck代表cookie，每个账号不一样
               }
     data = urllib.urlencode(values)
     url = 'https://www.douban.com/j/group/topic/' + tiezi_id + '/remove_comment'
